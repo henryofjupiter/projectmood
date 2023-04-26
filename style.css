@@ -1,5 +1,5 @@
-body{
-    border: 3pxho;
+body {
+    background-color: grey;
 }
 .sign-up-box {
     position: absolute;
@@ -9,7 +9,10 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     border-style: solid;
-    border-width: ;
+    width: 550px;
+    height: 170px;
+    padding-bottom: 40px;
+    background-color: rgb(233, 233, 233);
 
 }
 
@@ -17,9 +20,21 @@ h5 {
     /* display: inline-block; */
     margin-right: 9px;
 }
-.fieldname-input{
+
+.lastname-div {
+    /* display: inline; */
+}
+label {
+    
+}
+input {
     display: block;
 }
-label{
-    display: block;
+.parent {
+    
+}
+.child {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 9px;
 }
