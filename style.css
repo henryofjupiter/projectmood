@@ -1,5 +1,7 @@
 body {
-    background-color: grey;
+    /* background-color: rgb(134, 146, 148); */
+    background: #0c53bb;
+    margin-top: -20px
 }
 .sign-up-box {
     position: absolute;
@@ -8,16 +10,22 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-style: solid;
     width: 550px;
-    height: 170px;
+    height: 550px;
     padding-bottom: 40px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(255, 255, 255, 0.697);
+    border-radius: 25px;
 
 }
-
-h5 {
-
+h2 {
+    text-align: center;
+    color: #fff;
+}
+h3 {
+    padding-top: ;
+}
+h6 {
+    position: ;
 }
 
 .lastname-div {
@@ -29,17 +37,82 @@ label {
     display: block ;
 }
 input {
+    margin-bottom: 10px;
+    padding: 8px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    border: unset;
+    border-radius: 7px;
 
 }
-.parent {
-    
+.dml-header {
+    background-color: #0382c2;
+    max-width: 1500px;
+    width: 100%;
+    margin-left: -0px;
+    margin-right: -0px;
+    padding-bottom: 30px;
+    position: sticky;
+}
+.parent1 {
+
+}
+.div-signup, .div-signin {
+    display: inline;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.signup-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: unset;
+    background-color: #15aefb;
+    color: #fff;
+
+}
+.signin-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: unset;
+    background-color: #15aefb;
+    color: #fff;
+}
+.parent2 {
+    padding-bottom: 15px;
 }
 .child1 {
-    display: inline-block;
+    display: block;
     padding-bottom: 9px;
    
 }
-.child2 {
-    display: inline-block;
-    padding-bottom: 9px;
+.continue-button {
+    background-color:#15aefb;
+    color:#fff;
+    border-style: unset;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 9px;
+}
+.continue-button:hover, .signup-button:hover, .signin-button:hover {
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px) or (min-width: 750px) {
+    .dml-header {
+        max-width: 100%;
+        margin;
+    }
+    
 }
