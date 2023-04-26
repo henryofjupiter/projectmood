@@ -1,0 +1,25 @@
+body{
+    border: 3pxho;
+}
+.sign-up-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-style: solid;
+    border-width: ;
+
+}
+
+h5 {
+    /* display: inline-block; */
+    margin-right: 9px;
+}
+.fieldname-input{
+    display: block;
+}
+label{
+    display: block;
+}
