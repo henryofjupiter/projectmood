@@ -5,19 +5,28 @@
             let holder = "";
             holder = document.getElementById("username").value;
             console.log(holder);
+
+            while(true) {
+                if (holder === "Kace") {
+                    break;
+                }
+            }
         </script>
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Mood Log</title>
     </head>
-    <h2 class="dml-header">DML</h2>
     <body>
+        <h2 class="dml-header">DML</h2>
         <div class="sign-up-box">
             <div class="div-signup">
                 <button class="signup-button">Sign Up</button>
             </div>
             <div class="div-signin">
-                <button class="signin-button"> Sign In</button>
+                <button class="signin-button">
+                    <a href="signin.html" style="color: white; text-decoration: none;">Sign In</a>
+                </button>
             </div>
             <div class="parent1">
                 <div class="child1" style="margin-left: ; margin-right:;">
