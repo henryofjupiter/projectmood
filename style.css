@@ -1,12 +1,13 @@
 /*
-fix over flow
+TODO: fix css overflow
 */
 
 body {
-    /* background-color: rgb(134, 146, 148); */
-    background: #0c53bb;
-    margin: 0;
     width: 100%;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(12,83,187,1) 33%, rgba(0,212,255,1) 100%);
+    margin: 0;
 }
 .sign-up-box {
     position: absolute;
@@ -20,9 +21,30 @@ body {
     padding-bottom: 40px;
     background-color: rgba(255, 255, 255, 0.697);
     border-radius: 25px;
+    -webkit-box-shadow: 1px 53px 19px 7px rgba(7,27,117,0.7);
+    -moz-box-shadow: 1px 53px 19px 7px rgba(7,27,117,0.7);
+    box-shadow: 1px 53px 19px 7px rgba(7,27,117,0.7);
+
 
 }
+.sign-in-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    padding-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.697);
+    border-radius: 25px;
+    -webkit-box-shadow: 1px 53px 19px 7px rgba(7,27,117,0.7);
+    -moz-box-shadow: 1px 53px 19px 7px rgba(7,27,117,0.7);
+    box-shadow: 1px 53px 19px 7px rgba(7,27,117,0.7);
 
+
+}
 
 /* block puts labels on top of input boxes */
 label {
@@ -38,15 +60,13 @@ input {
 .dml-header {
     color: white;
     text-align: center;
-    background-color: #0382c2;
+    background-color: #0071c0;
     width: 100%;
     margin: auto;
     padding-bottom: 25px;
     padding-top: 35px;
 }
-.parent1 {
 
-}
 .div-signup, .div-signin {
     display: inline;
     margin-right: 10%;
@@ -81,16 +101,20 @@ input {
     padding-bottom: 9px;
    
 }
-.continue-button {
-    background-color:#15aefb;
+.submit-button {
+    background-color: #0fd87f;
     color:#fff;
     border-style: unset;
     padding: 10px 20px;
     border-radius: 9px;
 }
-.continue-button:hover, .signup-button:hover, .signin-button:hover {
+.submit-button:hover {
     cursor: pointer;
-    background-color: #00549e;
+    background-color: #07a961;
+}
+.signup-button:hover, .signin-button:hover {
+    cursor: pointer;
+    background: #107cb7;
 }
 .continue-without-account {
     margin-top: 60px;
