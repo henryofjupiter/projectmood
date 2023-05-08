@@ -6,28 +6,32 @@
         <title>DML- Sign In</title>
     </head>
     <body>
-    <h2 class="dml-header">DML</h2>
-    <div class="sign-in-box" >
-<!--  TODO: change layout of sign in and sign up buttons      -->
-        <div class="div-signup">
-            <button class="signup-button"><a href="main.html" style="text-decoration: none; color: white;">Sign Up</a></button>
-        </div>
-        <div class="div-signin">
-            <button class="signin-button"> Sign In</button>
-        </div>
-        <div class="parent1">
-            <div class="child1" style="margin-right: ">
-                <input placeholder="Email:" type="text" name="email">
-            </div>
+        <header class="dml-header">
+            <h3>DML</h3>
+        </header>
+        <div class="sign-in-box" >
+    <!--  TODO: change layout of sign in and sign up buttons      -->
+            <form>
+                <div class="div-signup">
+                    <button class="signup-button"><a href="main.html" style="text-decoration: none; color: white;">Sign Up</a></button>
+                </div>
+                <div class="div-signin">
+                    <button class="signin-button"> Sign In</button>
+                </div>
+                <div class="parent1">
+                    <div class="child1" style="margin-right: ">
+                        <input placeholder="Email:" type="text" name="email">
+                    </div>
 
-            <div class="child1">
-                <input placeholder="Password:" type="password" id="password" name="password">
-            </div>
+                    <div class="child1">
+                        <input placeholder="Password:" type="password" id="password" name="password">
+                    </div>
+                </div>
+                <button class="submit-button">submit</button>
+                <br>
+                <br>
+                <p class="continue-without-account"><a href="homepage.html">continue without account</a></p>
+            </form>
         </div>
-        <button class="submit-button">submit</button>
-        <br>
-        <br>
-        <p class="continue-without-account"><a href="homepage.html">continue without account</a></p>
-    </div>
     </body>
 </html>
